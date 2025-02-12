@@ -1,0 +1,43 @@
+.col-md-3 {
+  width: 100%; /* Adjust as needed */
+  min-height: 150px; /* Increase for larger note size */
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+  word-break: break-word;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+
+
+.card {
+  background-color: #f0f8ff; /* Light blue background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  border-radius: 10px;
+  padding: 15px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  color: #333;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #555;
+}
+
+.fa-trash {
+  color: #e63946;
+  cursor: pointer;
+}
+
+.fa-pen-to-square {
+  color: #007bff;
+  cursor: pointer;
+}
