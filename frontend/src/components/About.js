@@ -6,9 +6,9 @@ const About = () => {
   return (
     <div className="about-wrapper">
       <div className="about-content">
-        <h1 className="title animate-slide-in">Welcome to iNotebook</h1>
+        <h1 className="title animate-slide-in">Welcome to MyNotebook</h1>
         <p className="description">
-          iNotebook is your secure and efficient digital notebook.
+          MyNotebook is your secure and efficient digital notebook.
           Designed for simplicity and security, it empowers you to capture ideas,
           organize tasks, and store important information effortlessly — all in one place.
         </p>
@@ -29,7 +29,7 @@ const About = () => {
         </div>
 
         <footer className="footer-text animate-bounce">
-          Stay productive, stay secure — with iNotebook.
+          Stay productive, stay secure — with MyNotebook.
         </footer>
       </div>
     </div>

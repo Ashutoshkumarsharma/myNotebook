@@ -34,8 +34,8 @@ const Login = (props) => {
   return (
     <div className="login-container">
       <div className="login-box">
-        <h2 className="login-title">Welcome to iNotebook</h2>
-        <h6 className="login-title-1">Login To Continue iNotebook</h6>
+        <h2 className="login-title">Welcome to MyNotebook</h2>
+        <h6 className="login-title-1">Login To Continue MyNotebook</h6>
         <p className="login-subtitle">Securely access your notes by logging in</p>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
